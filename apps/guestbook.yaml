@@ -10,7 +10,7 @@ metadata:
 spec:
   destination:
     namespace: guestbook
-    name: kind
+    name: https://kubernetes.default.svc
   project: default
   source:
     path: general/helm-guestbook
