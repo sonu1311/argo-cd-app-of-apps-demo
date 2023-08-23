@@ -17,8 +17,8 @@ spec:
     repoURL: https://github.com/morey-tech/argocd-example-apps
     targetRevision: HEAD
   syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
+    # automated:
+    #   prune: true
+    #   selfHeal: true
     syncOptions:
       - CreateNamespace=true
